@@ -1,0 +1,150 @@
+.mark {
+    font-size: 40px;
+    color: #E6508B;
+    font-style: italic;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.profile-container {
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.profile-container h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.profile-container p {
+    font-size: 20px;
+    color: #4A4957;
+    padding-top: 10px;
+}
+
+.avatar-container {
+    padding-top: 50px;
+    display: flex;
+}
+
+.avatar h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.avatar-img {
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dotted #4A4957;
+}
+
+.avatar-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.link {
+    display: grid;
+    padding-top: 125px;
+    padding-left: 50px;
+    height: 200px;
+}
+
+.link input,
+a {
+    height: 30px;
+}
+
+.link a {
+    color: #4A4957;
+}
+
+.avatar-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.location {
+    padding-top: 75px;
+}
+
+.location h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.location input {
+    margin-top: 25px;
+    font-size: 20px;
+    border-bottom: 2px solid #4A4957;
+    width: 670px;
+}
+
+.next {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background: #EA4B8A;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    color: whitesmoke;
+}
+
+.outer {
+    display: grid;
+}
+
+.outer a {
+    padding-left: 50px;
+    color: #4A4957;
+    padding-top: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .profile-container {
+        padding-top: 30px;
+    }
+
+    .avatar-container {
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .avatar h2 {
+        margin-bottom: 20px;
+    }
+
+    .link {
+        padding-top: 30px;
+    }
+
+    .location {
+        padding-top: 30px;
+    }
+
+    .location input {
+        width: 90%;
+        max-width: 670px;
+        text-align: center;
+    }
+
+    .next {
+        margin-top: 50px;
+    }
+}

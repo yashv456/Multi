@@ -1,0 +1,154 @@
+.cards-holder {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 130px;
+}
+
+.card1-container {
+    border: 2px solid #5E5D61;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.card1-container img {
+    height: 400px;
+    width: 400px;
+}
+
+.card1-container h1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 70px;
+}
+
+.card1-container h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 110px;
+}
+
+.card1-container p {
+    color: #5E5D61;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.card1-container input {
+    height: 20px;
+    width: 20px;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.card2-container {
+    border: 2px solid #5E5D61;
+    border-radius: 10px;
+    margin-right: 50px;
+
+}
+
+.card2-container img {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.card2-container h1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.card2-container h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.card2-container input {
+    height: 20px;
+    width: 20px;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.card2-container p {
+    color: #5E5D61;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+
+.card3-container {
+    border: 2px solid #5E5D61;
+    border-radius: 10px;
+}
+
+.card3-container img {
+    height: 400px;
+    width: 400px;
+}
+
+.card3-container h1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.card3-container h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.card3-container p {
+    color: #5E5D61;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+.card3-container input {
+    height: 20px;
+    width: 20px;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .cards-holder {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 15px;
+    }
+
+    .card1-container,
+    .card2-container,
+    .card3-container {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .card1-container h1,
+    .card2-container h1,
+    .card3-container h1,
+    .card1-container h2,
+    .card2-container h2,
+    .card3-container h2,
+    .card1-container p,
+    .card2-container p,
+    .card3-container p {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .card1-container input,
+    .card2-container input,
+    .card3-container input {
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}

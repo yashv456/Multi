@@ -1,0 +1,77 @@
+.body {
+    display: grid;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 95px;
+}
+
+.envelope {
+    padding-left: 220px;
+    color: #9D9EA6;
+    font-size: 100px;
+}
+
+.verify {
+    padding-left: 45px;
+    padding-top: 20px;
+}
+
+.check-email {
+    padding-left: 185px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.checking {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.confirm {
+    padding-top: 20px;
+}
+
+.remain {
+    padding-left: 90px;
+}
+
+.remain a {
+    color: rgb(238, 163, 175);
+}
+
+.restart {
+    padding-left: 160px;
+    padding-top: 20px;
+}
+
+.restart a {
+    color: rgb(238, 163, 175);
+}
+
+@media (max-width: 768px) {
+    .body {
+        padding: 50px 15px;
+    }
+
+    .heading,
+    .envelope,
+    .verify,
+    .check-email,
+    .checking,
+    .confirm,
+    .remain,
+    .restart {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .envelope {
+        padding-top: 15px;
+    }
+}

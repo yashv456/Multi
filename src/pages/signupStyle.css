@@ -1,0 +1,232 @@
+.btn {
+    width: 200px;
+    height: 60px;
+    border: 3px solid #315cfd;
+    border-radius: 45px;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+}
+
+.member {
+    padding-left: 600px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side {
+    width: 40vw;
+}
+
+.left-side img {
+    height: 100vh;
+    width: fit-content;
+}
+
+.right-side {
+    padding-left: 325px;
+    padding-top: 25px;
+}
+
+.right-side h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.dribble {
+    padding-top: 50px;
+}
+
+.dribble ul li {
+    list-style: circle;
+    margin-left: 20px;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+#name {
+    border-radius: 7px;
+    width: 250px;
+    background-color: rgb(203, 200, 200);
+    padding-left: 25px;
+}
+
+#username {
+    border-radius: 7px;
+    width: 250px;
+    background-color: rgb(203, 200, 200);
+    padding-left: 25px;
+}
+
+#email {
+    border-radius: 7px;
+    width: 525px;
+    background-color: rgb(203, 200, 200);
+    padding-left: 25px;
+}
+
+#password {
+    border-radius: 7px;
+    width: 525px;
+    background-color: rgb(203, 200, 200);
+    padding-left: 25px;
+}
+
+.txt-container {
+    display: flex;
+}
+
+.name {
+    display: grid;
+}
+
+.username {
+    display: grid;
+    padding-left: 25px;
+}
+
+.email {
+    display: grid;
+    padding-top: 40px;
+}
+
+.password {
+    display: grid;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.name label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.username label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.password label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name input {
+    height: 40px;
+}
+
+.username input {
+    height: 40px;
+}
+
+.email input {
+    height: 40px;
+}
+
+.password input {
+    height: 40px;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox input {
+    height: 25px;
+    width: 25px;
+}
+
+.checkbox h6 {
+    padding-left: 10px;
+}
+
+.policy {
+    padding-top: 25px;
+}
+
+.member a.anchor0 {
+    color: blue;
+}
+
+h6 {
+    color: rgb(155, 153, 153);
+}
+
+h6 a.anchor1 {
+    color: blue;
+}
+
+h6 a.anchor2 {
+    color: blue;
+}
+
+h6 a.anchor3 {
+    color: blue;
+}
+
+h6 a.anchor4 {
+    color: blue;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .right-side {
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+
+    .right-side h1 {
+        font-size: 30px;
+    }
+
+    .dribble {
+        padding-top: 30px;
+    }
+
+    .dribble ul li {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: medium;
+    }
+
+    #name,
+    #username {
+        width: 100%;
+    }
+
+    #email,
+    #password {
+        width: 100%;
+    }
+
+    .name label,
+    .username label,
+    .email label,
+    .password label {
+        font-size: 18px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .checkbox h6,
+    .policy {
+        padding-top: 15px;
+    }
+}

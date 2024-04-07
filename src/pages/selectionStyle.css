@@ -1,0 +1,129 @@
+.top-line {
+    display: flex;
+}
+
+.top-line h1 {
+    font-size: 40px;
+    color: #E6508B;
+    font-style: italic;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-style: italic;
+}
+
+.arrow {
+    margin-top: 45px;
+    margin-left: 50px;
+    background-color: #F2F2F2;
+    border-radius: 7px;
+    height: 50px;
+    width: 50px;
+    padding-top: 12px;
+    padding-left: 18px;
+    color: #6E6C77;
+}
+
+.center-space {
+    padding-top: 75px;
+}
+
+.center-space h1 {
+    padding-left: 700px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.center-space p {
+    padding-left: 570px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #5E5D61;
+}
+
+.last {
+    padding-left: 750px;
+    display: grid;
+}
+
+.last a {
+    color: #5E5D61;
+    padding-left: 120px;
+    padding-top: 10px;
+}
+
+.last h1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 75px;
+}
+
+.finish {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background: #EA4B8A;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    color: whitesmoke;
+    margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+    .top-line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-line h1 {
+        font-size: 30px;
+        padding-left: 15px;
+        padding-top: 20px;
+    }
+
+    .arrow {
+        margin-top: 25px;
+        margin-left: 15px;
+        height: 40px;
+        width: 40px;
+        padding-top: 10px;
+        padding-left: 12px;
+    }
+
+    .center-space {
+        padding-top: 50px;
+    }
+
+    .center-space h1 {
+        padding-left: 30px;
+        font-size: 30px;
+    }
+
+    .center-space p {
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    .last {
+        padding-left: 30px;
+    }
+
+    .last a {
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+
+    .last h1 {
+        font-size: 18px;
+        padding-top: 50px;
+    }
+
+    .finish {
+        width: 200px;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
